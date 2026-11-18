@@ -1,0 +1,24 @@
+{
+  "name": "aniwings",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/silentaesir/aniwings-app.git"
+  },
+  "type": "module",
+  "workspaces": [
+    "web"
+  ],
+  "scripts": {
+    "dev": "npm --prefix web run dev",
+    "build": "npm --prefix web run build && node -e \"const fs = require('fs'); fs.rmSync('dist', {recursive: true, force: true}); fs.cpSync('web/dist', 'dist', {recursive: true});\"",
+    "lint": "npm --prefix web run lint",
+    "preview": "npm --prefix web run preview"
+  },
+  "optionalDependencies": {
+    "@rolldown/binding-linux-x64-gnu": "^1.1.5"
+  },
+  "devDependencies": {
+    "@rolldown/binding-linux-x64-gnu": "^1.1.5"
+  }
+}
