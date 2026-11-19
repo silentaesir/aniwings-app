@@ -57,8 +57,8 @@ export default function Home({ updateData }) {
   const desktopPortableZipDownloadUrl = desktopData?.windowsPortableUrl || desktopData?.portableUrl || DEFAULT_DESKTOP_PORTABLE_URL;
   const desktopLinuxDownloadUrl = desktopData?.linuxUrl || DEFAULT_DESKTOP_LINUX_URL;
   const desktopFileSize = desktopData?.fileSize || '42 MB - 82 MB';
-  const desktopVersion = desktopData?.version || '1.2.6';
-  const desktopUpdatedAt = desktopData?.updatedAt || '2026-10-11';
+  const desktopVersion = desktopData?.version || '1.3.1';
+  const desktopUpdatedAt = desktopData?.updatedAt || '2026-11-19';
   const desktopReleaseNotes = desktopData?.releaseNotes;
 
   useEffect(() => {
@@ -519,10 +519,10 @@ export default function Home({ updateData }) {
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '4px', marginBottom: '0.75rem' }}>
                   <h4 style={{ fontSize: '0.98rem', color: '#ffffff', display: 'flex', alignItems: 'center', gap: '8px', margin: 0, whiteSpace: 'nowrap' }}>
                     <i className="ri-tv-line" style={{ color: '#3DDC84', flexShrink: 0 }}></i>
-                    <span>Android TV v{tvData?.version || '1.3.0'} Release Notes</span>
+                    <span>Android TV v{tvData?.version || '1.3.2'} Release Notes</span>
                   </h4>
                   <span style={{ fontSize: '0.82rem', color: 'var(--text-muted)' }}>
-                    Released: {tvData?.updatedAt || '2026-11-03'}
+                    Released: {tvData?.updatedAt || '2026-11-19'}
                   </span>
                 </div>
                 <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem', lineHeight: '1.6', margin: 0 }}>

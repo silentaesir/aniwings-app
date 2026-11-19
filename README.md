@@ -40,10 +40,10 @@ Total download counts breakdown across all official releases:
 
 | Device / Platform | Total Downloads | Latest Version | Supported Systems & Formats |
 | :--- | :---: | :---: | :--- |
-| 📱 **Android Mobile** | **8,058+** (~8.1k) | `v1.3.0` | Universal APK, ARM64-v8a APK, armeabi-v7a APK |
-| 🍎 **iOS (iPhone & iPad)** | **New** | `v1.2.6` | Universal iOS Package (`.ipa`) |
-| 📺 **Android TV** | **869+** | `v1.3.0` | Universal TV APK, ARM64 TV APK, armeabi-v7a TV APK |
-| 💻 **Desktop (PC)** | **27+** *(New)* | `v1.2.6` | Windows Setup (.exe), Standalone (.exe), Portable (.zip), Linux (.AppImage) |
+| 📱 **Android Mobile** | **8,058+** (~8.1k) | `v1.3.2` | Universal APK, ARM64-v8a APK, armeabi-v7a APK |
+| 🍎 **iOS (iPhone & iPad)** | **Pending** | `v1.2.6` | Universal iOS Package (`.ipa`) |
+| 📺 **Android TV** | **869+** | `v1.3.2` | Universal TV APK, ARM64 TV APK, armeabi-v7a TV APK |
+| 💻 **Desktop (PC)** | **27+** *(New)* | `v1.3.1` | Windows Setup (.exe), Standalone (.exe), Portable (.zip), Linux (.AppImage) |
 | 🌟 **Total Across Devices** | **8,954+** (~9.0k) | — | **All Supported Platforms** |
 
 ---
@@ -74,7 +74,7 @@ Discover anime, browse seasonal releases, follow airing schedules, manage your l
 
 # 📥 Downloads
 
-## 📱 Android Mobile — v1.3.0 `(8,058+ Downloads)`
+## 📱 Android Mobile — v1.3.2 `(8,058+ Downloads)`
 
 Choose the build that best matches your Android device.
 
@@ -88,7 +88,7 @@ Choose the build that best matches your Android device.
 
 ---
 
-## 📺 Android TV — v1.3.0 `(869+ Downloads)`
+## 📺 Android TV — v1.3.2 `(869+ Downloads)`
 
 Optimized for **Android TV, Google TV, Amazon Fire TV, NVIDIA Shield TV, and compatible Android TV boxes**.
 
@@ -102,7 +102,7 @@ Optimized for **Android TV, Google TV, Amazon Fire TV, NVIDIA Shield TV, and com
 
 ---
 
-## 💻 Desktop (Windows & Linux) — v1.2.6 `(27+ Downloads)`
+## 💻 Desktop (Windows & Linux) — v1.3.1 `(27+ Downloads)`
 
 Native desktop builds for **Windows 10/11 (64-bit)** and **Linux distributions**.
 
@@ -117,7 +117,7 @@ Native desktop builds for **Windows 10/11 (64-bit)** and **Linux distributions**
 
 ---
 
-## 🍎 iOS (iPhone & iPad) — v1.2.6
+## 🍎 iOS (iPhone & iPad) — Pending
 
 Official installable `.ipa` package for **iPhone and iPad** devices.
 

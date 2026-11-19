@@ -15,10 +15,10 @@
   "armv7Url": "https://github.com/silentaesir/aniwings-app/releases/download/v1.3.2/AniWings-armeabi-v7a.apk",
   "iosUrl": "https://github.com/silentaesir/aniwings-app/releases/download/ios-v1.3.2/AniWings-ios.ipa",
   "mandatory": true,
-  "releaseNotes": "AniWings v1.3.2 Update - Added manga providers health monitoring, fixed episode grid pagination, updated server channels, and optimized performance.",
+  "releaseNotes": "AniWings v1.3.2 Update - Added manga and novel features, removed leaderboard and watch hours reward milestones, added redeem codes support, fixed various bugs, and optimized overall app performance.",
   "minVersion": "1.3.2",
   "fileSize": "189.8 MB",
-  "updatedAt": "2026-11-18",
+  "updatedAt": "2026-11-19",
   "ios": {
     "version": "1.3.2",
     "tag": "ios-v1.3.2",
@@ -40,10 +40,10 @@
     "arm64Url": "https://github.com/silentaesir/aniwings-app/releases/download/tv-v1.3.2/aniwings-tv-v1.3.2-arm64-v8a.apk",
     "armv7Url": "https://github.com/silentaesir/aniwings-app/releases/download/tv-v1.3.2/aniwings-tv-v1.3.2-armeabi-v7a.apk",
     "mandatory": true,
-    "releaseNotes": "AniWings TV v1.3.2 Update - Fixed the QR login feature, some bugs fixed and app optimized.",
+    "releaseNotes": "AniWings TV v1.3.2 Update - Fixed MyAnimeList (MAL) API, fixed details page issues, resolved multiple bugs, and optimized performance.",
     "minVersion": "1.3.2",
-    "fileSize": "71.1 MB",
-    "updatedAt": "2026-11-18",
+    "fileSize": "70.3 MB",
+    "updatedAt": "2026-11-19",
     "appName": "AniWings TV"
   },
   "desktop": {
@@ -59,10 +59,10 @@
     "windowsFileName": "aniwings-desktop-windows-v1.3.1-setup.exe",
     "linuxFileName": "aniwings-desktop-linux-v1.3.1.AppImage",
     "mandatory": true,
-    "releaseNotes": "AniWings Desktop v1.3.1 Release - Fixed bugs, some UI changes and optimised smoother performance.",
+    "releaseNotes": "AniWings Desktop v1.3.1 Update - Fully fixed MyAnimeList (MAL) API, fixed settings saving issues, fully fixed torrent engine, resolved multiple bugs, and optimized app performance.",
     "minVersion": "1.3.1",
     "fileSize": "42 MB - 82 MB",
-    "updatedAt": "2026-11-18",
+    "updatedAt": "2026-11-19",
     "appName": "AniWings Desktop"
   },
   "downloadStats": {
