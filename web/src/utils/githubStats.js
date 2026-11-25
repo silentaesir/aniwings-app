@@ -6,6 +6,8 @@ export const FALLBACK_STATS = {
   total: 8954,
   mobile: 8058,
   tv: 869,
+  windows: 20,
+  linux: 7,
   desktop: 27,
   ios: 0,
 };
@@ -15,6 +17,8 @@ export async function fetchLiveDownloadStats(initialFallback = FALLBACK_STATS) {
     total: Math.max(Number(initialFallback?.total) || 0, FALLBACK_STATS.total),
     mobile: Math.max(Number(initialFallback?.mobile) || 0, FALLBACK_STATS.mobile),
     tv: Math.max(Number(initialFallback?.tv) || 0, FALLBACK_STATS.tv),
+    windows: Math.max(Number(initialFallback?.windows) || 0, FALLBACK_STATS.windows),
+    linux: Math.max(Number(initialFallback?.linux) || 0, FALLBACK_STATS.linux),
     desktop: Math.max(Number(initialFallback?.desktop) || 0, FALLBACK_STATS.desktop),
     ios: Math.max(Number(initialFallback?.ios) || 0, FALLBACK_STATS.ios || 0),
   };
@@ -50,6 +54,8 @@ export async function fetchLiveDownloadStats(initialFallback = FALLBACK_STATS) {
     let liveTotal = 0;
     let liveMobile = 0;
     let liveTv = 0;
+    let liveWindows = 0;
+    let liveLinux = 0;
     let liveDesktop = 0;
     let liveIos = 0;
 
@@ -59,17 +65,24 @@ export async function fetchLiveDownloadStats(initialFallback = FALLBACK_STATS) {
         const name = (asset.name || '').toLowerCase();
 
         // Only count installer and package binaries
-        if (!name.match(/\.(apk|ipa|exe|zip|appimage|deb|rpm|dmg)$/)) {
+        if (!name.match(/\.(apk|ipa|exe|zip|appimage|deb|rpm|tar\.gz)$/)) {
           return;
         }
 
         liveTotal += count;
         if (name.includes('tv')) {
           liveTv += count;
-        } else if (name.includes('desktop') || name.endsWith('.exe') || name.endsWith('.zip') || name.endsWith('.appimage')) {
-          liveDesktop += count;
         } else if (name.includes('ios') || name.endsWith('.ipa')) {
           liveIos += count;
+        } else if (name.includes('windows') || name.endsWith('.exe')) {
+          liveWindows += count;
+          liveDesktop += count;
+        } else if (name.includes('linux') || name.endsWith('.appimage') || name.endsWith('.deb') || name.endsWith('.rpm')) {
+          liveLinux += count;
+          liveDesktop += count;
+        } else if (name.includes('desktop') || name.endsWith('.zip')) {
+          liveDesktop += count;
+          liveWindows += count;
         } else {
           liveMobile += count;
         }
@@ -80,6 +93,8 @@ export async function fetchLiveDownloadStats(initialFallback = FALLBACK_STATS) {
       total: base.total + liveTotal,
       mobile: base.mobile + liveMobile,
       tv: base.tv + liveTv,
+      windows: base.windows + liveWindows,
+      linux: base.linux + liveLinux,
       desktop: base.desktop + liveDesktop,
       ios: base.ios + liveIos,
     };

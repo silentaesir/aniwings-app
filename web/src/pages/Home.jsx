@@ -21,27 +21,31 @@ export default function Home({ updateData }) {
     return (count || 0).toLocaleString();
   };
 
-  const DEFAULT_GITHUB_RELEASE_URL = 'https://github.com/silentaesir/aniwings-app/releases/download/v1.3.2/AniWings-universal.apk';
-  const DEFAULT_IOS_RELEASE_URL = 'https://github.com/silentaesir/aniwings-app/releases/download/ios-v1.3.2/AniWings-ios.ipa';
-  const DEFAULT_TV_RELEASE_URL = 'https://github.com/silentaesir/aniwings-app/releases/download/tv-v1.3.2/aniwings-tv-v1.3.2-universal.apk';
-  const DEFAULT_DESKTOP_SETUP_URL = 'https://github.com/silentaesir/aniwings-app/releases/download/desktop-v1.3.1/aniwings-desktop-windows-v1.3.1-setup.exe';
-  const DEFAULT_DESKTOP_EXE_URL = 'https://github.com/silentaesir/aniwings-app/releases/download/desktop-v1.3.1/aniwings-desktop-windows-v1.3.1.exe';
-  const DEFAULT_DESKTOP_PORTABLE_URL = 'https://github.com/silentaesir/aniwings-app/releases/download/desktop-v1.3.1/aniwings-desktop-windows-v1.3.1-portable.zip';
-  const DEFAULT_DESKTOP_LINUX_URL = 'https://github.com/silentaesir/aniwings-app/releases/download/desktop-v1.3.1/aniwings-desktop-linux-v1.3.1.AppImage';
+  const DEFAULT_GITHUB_RELEASE_URL = 'https://github.com/silentaesir/aniwings-app/releases/download/v1.3.3/AniWings-universal.apk';
+  const DEFAULT_IOS_RELEASE_URL = 'https://github.com/silentaesir/aniwings-app/releases/download/ios-v1.3.3/AniWings-ios.ipa';
+  const DEFAULT_TV_RELEASE_URL = 'https://github.com/silentaesir/aniwings-app/releases/download/tv-v1.3.3/aniwings-tv-v1.3.3-universal.apk';
+
+  // Windows Desktop Defaults
+  const DEFAULT_WINDOWS_SETUP_URL = 'https://github.com/silentaesir/aniwings-app/releases/download/windows-v1.3.2/aniwings-desktop-windows-v1.3.2-setup.exe';
+  const DEFAULT_WINDOWS_EXE_URL = 'https://github.com/silentaesir/aniwings-app/releases/download/windows-v1.3.2/aniwings-desktop-windows-v1.3.2.exe';
+  const DEFAULT_WINDOWS_PORTABLE_URL = 'https://github.com/silentaesir/aniwings-app/releases/download/windows-v1.3.2/aniwings-desktop-windows-v1.3.2-portable.zip';
+
+  // Linux Desktop Defaults
+  const DEFAULT_LINUX_APPIMAGE_URL = 'https://github.com/silentaesir/aniwings-app/releases/download/linux-v1.3.2/aniwings-desktop-linux-v1.3.2.AppImage';
 
   const downloadUrl = updateData?.url || DEFAULT_GITHUB_RELEASE_URL;
   const universalDownloadUrl = updateData?.universalUrl || downloadUrl;
   const arm64DownloadUrl = updateData?.arm64Url || downloadUrl;
   const armv7DownloadUrl = updateData?.armv7Url || updateData?.armV7Url || downloadUrl;
-  const fileSize = updateData?.fileSize || '187.1 MB';
-  const updatedAt = updateData?.updatedAt || 'Recent';
+  const fileSize = updateData?.fileSize || '190.0 MB';
+  const updatedAt = updateData?.updatedAt || '2026-11-26';
   const releaseNotes = updateData?.releaseNotes;
 
   const iosData = updateData?.ios;
   const iosDownloadUrl = iosData?.ipaUrl || iosData?.url || updateData?.iosUrl || DEFAULT_IOS_RELEASE_URL;
-  const iosFileSize = iosData?.fileSize || '53.3 MB';
-  const iosVersion = iosData?.version || '1.2.6';
-  const iosUpdatedAt = iosData?.updatedAt || '2026-10-13';
+  const iosFileSize = iosData?.fileSize || '58.5 MB';
+  const iosVersion = iosData?.version || '1.3.3';
+  const iosUpdatedAt = iosData?.updatedAt || '2026-11-26';
   const iosReleaseNotes = iosData?.releaseNotes;
 
   const tvData = updateData?.tv;
@@ -49,17 +53,25 @@ export default function Home({ updateData }) {
   const tvUniversalDownloadUrl = tvData?.universalUrl || updateData?.tvUniversalUrl || tvDownloadUrl;
   const tvArm64DownloadUrl = tvData?.arm64Url || updateData?.tvArm64Url || tvDownloadUrl;
   const tvArmv7DownloadUrl = tvData?.armv7Url || updateData?.tvArmv7Url || tvDownloadUrl;
-  const tvFileSize = tvData?.fileSize || '71.1 MB';
+  const tvFileSize = tvData?.fileSize || '70.4 MB';
 
-  const desktopData = updateData?.desktop;
-  const desktopSetupDownloadUrl = desktopData?.windowsSetupUrl || desktopData?.setupUrl || DEFAULT_DESKTOP_SETUP_URL;
-  const desktopExeDownloadUrl = desktopData?.windowsExeUrl || desktopData?.exeUrl || desktopData?.windowsUrl || DEFAULT_DESKTOP_EXE_URL;
-  const desktopPortableZipDownloadUrl = desktopData?.windowsPortableUrl || desktopData?.portableUrl || DEFAULT_DESKTOP_PORTABLE_URL;
-  const desktopLinuxDownloadUrl = desktopData?.linuxUrl || DEFAULT_DESKTOP_LINUX_URL;
-  const desktopFileSize = desktopData?.fileSize || '42 MB - 82 MB';
-  const desktopVersion = desktopData?.version || '1.3.1';
-  const desktopUpdatedAt = desktopData?.updatedAt || '2026-11-19';
-  const desktopReleaseNotes = desktopData?.releaseNotes;
+  // Windows
+  const windowsData = updateData?.windows || updateData?.desktop?.windows || updateData?.desktop;
+  const windowsSetupDownloadUrl = windowsData?.setupUrl || windowsData?.windowsSetupUrl || DEFAULT_WINDOWS_SETUP_URL;
+  const windowsExeDownloadUrl = windowsData?.exeUrl || windowsData?.windowsExeUrl || windowsData?.windowsUrl || DEFAULT_WINDOWS_EXE_URL;
+  const windowsPortableZipDownloadUrl = windowsData?.portableUrl || windowsData?.windowsPortableUrl || DEFAULT_WINDOWS_PORTABLE_URL;
+  const windowsFileSize = windowsData?.fileSize || '60.0 MB';
+  const windowsVersion = windowsData?.version || '1.3.2';
+  const windowsUpdatedAt = windowsData?.updatedAt || '2026-11-26';
+  const windowsReleaseNotes = windowsData?.releaseNotes;
+
+  // Linux
+  const linuxData = updateData?.linux || updateData?.desktop?.linux;
+  const linuxAppImageDownloadUrl = linuxData?.appImageUrl || linuxData?.linuxUrl || DEFAULT_LINUX_APPIMAGE_URL;
+  const linuxFileSize = linuxData?.fileSize || '42.7 MB';
+  const linuxVersion = linuxData?.version || '1.3.2';
+  const linuxUpdatedAt = linuxData?.updatedAt || '2026-11-26';
+  const linuxReleaseNotes = linuxData?.releaseNotes;
 
   useEffect(() => {
     // Scroll Reveal Animation via IntersectionObserver
@@ -102,7 +114,7 @@ export default function Home({ updateData }) {
           <div className="big-intro-content reveal active">
             <div className="bi-left">
               <div className="version-badge">
-                <span className="badge-new">v{updateData?.version || '1.3.2'}</span>
+                <span className="badge-new">v{updateData?.version || '1.3.3'}</span>
                 <span className="version-text">
                   <i className="ri-download-cloud-line" style={{ marginRight: '5px' }}></i>
                   {formatCount(downloadStats.total)}+ Total Downloads
@@ -112,7 +124,7 @@ export default function Home({ updateData }) {
                 Enjoy Uninterrupted Anime on <span className="highlight">AniWings</span>
               </h1>
               <p className="description">
-                Sick of constant interruptions, tedious sign-ups, and broken streaming servers? AniWings is your go-to ad-free anime client for Android. Features an advanced integrated media player, personalized library tracking, and butter-smooth playback for a top-tier viewing journey.
+                Sick of constant interruptions, tedious sign-ups, and broken streaming servers? AniWings is your go-to ad-free anime client across Android, iOS, TV, Windows &amp; Linux. Features an advanced integrated media player, personalized library tracking, and butter-smooth playback for a top-tier viewing journey.
               </p>
               <div className="flex-btns">
                 <a 
@@ -319,7 +331,7 @@ export default function Home({ updateData }) {
       <div className="section section-download reveal" id="section-download">
         <div className="container">
           <h2 className="section-title">Grab the Latest AniWings Release</h2>
-          <p className="section-desc">Over {formatCount(downloadStats.total)}+ downloads across Android, iOS, TV &amp; Desktop. Fetch the installable files below and launch your new premium anime experience.</p>
+          <p className="section-desc">Over {formatCount(downloadStats.total)}+ downloads across Android, iOS, TV, Windows &amp; Linux. Fetch the installable files below and launch your new premium anime experience.</p>
           
           <div className="dl-ul">
             {/* Android Mobile */}
@@ -402,55 +414,6 @@ export default function Home({ updateData }) {
               </div>
             </div>
 
-            {/* Desktop */}
-            <div className="dlu-item">
-              <div className="dlu-icon">
-                <i className="ri-computer-line"></i>
-              </div>
-              <h3 className="dlu-title">Desktop</h3>
-              <p className="dlu-desc">{desktopFileSize} • {formatCount(downloadStats.desktop)}+ downloads • Select build for Windows &amp; Linux PC.</p>
-              <div className="dlu-detail">
-                <div className="dlu-btn-group">
-                  <a 
-                    href={directDownloadUrl(desktopSetupDownloadUrl)} 
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="btn btn-lg btn-pre dlu-split-btn"
-                  >
-                    <i className="ri-windows-fill"></i>
-                    <span>Windows Setup (.exe) <span className="btn-tag">Installer</span></span>
-                  </a>
-                  <a 
-                    href={directDownloadUrl(desktopExeDownloadUrl)} 
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="btn btn-lg btn-secondary dlu-split-btn"
-                  >
-                    <i className="ri-file-code-line"></i>
-                    <span>Standalone (.exe) <span className="btn-tag">Portable</span></span>
-                  </a>
-                  <a 
-                    href={directDownloadUrl(desktopPortableZipDownloadUrl)} 
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="btn btn-lg btn-secondary dlu-split-btn"
-                  >
-                    <i className="ri-file-zip-line"></i>
-                    <span>Portable ZIP (.zip) <span className="btn-tag">Archive</span></span>
-                  </a>
-                  <a 
-                    href={directDownloadUrl(desktopLinuxDownloadUrl)} 
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="btn btn-lg btn-secondary dlu-split-btn"
-                  >
-                    <i className="ri-linux-fill"></i>
-                    <span>Linux (.AppImage) <span className="btn-tag">Universal</span></span>
-                  </a>
-                </div>
-              </div>
-            </div>
-
             {/* iOS */}
             <div className="dlu-item">
               <div className="dlu-icon">
@@ -471,7 +434,72 @@ export default function Home({ updateData }) {
                   </a>
                 </div>
                 <p style={{ fontSize: '12px', color: 'var(--text-muted)', marginTop: '12px', lineHeight: '1.45', marginBottom: 0 }}>
-                  📱 <strong>iOS Users (AniWings-ios.ipa):</strong> Download the .ipa and install it using SideStore, AltStore, Sideloadly, Feather, or TrollStore.
+                  📱 <strong>iOS Users (AniWings-ios.ipa):</strong> Install using SideStore, AltStore, Sideloadly, Feather, or TrollStore.
+                </p>
+              </div>
+            </div>
+
+            {/* Windows Desktop */}
+            <div className="dlu-item">
+              <div className="dlu-icon">
+                <i className="ri-windows-fill"></i>
+              </div>
+              <h3 className="dlu-title">Windows</h3>
+              <p className="dlu-desc">{windowsFileSize} • {formatCount(downloadStats.windows || downloadStats.desktop || 0)}+ downloads • Windows 10 &amp; 11 (64-bit).</p>
+              <div className="dlu-detail">
+                <div className="dlu-btn-group">
+                  <a 
+                    href={directDownloadUrl(windowsSetupDownloadUrl)} 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn btn-lg btn-pre dlu-split-btn"
+                  >
+                    <i className="ri-windows-fill"></i>
+                    <span>Windows Setup (.exe) <span className="btn-tag">Installer</span></span>
+                  </a>
+                  <a 
+                    href={directDownloadUrl(windowsExeDownloadUrl)} 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn btn-lg btn-secondary dlu-split-btn"
+                  >
+                    <i className="ri-file-code-line"></i>
+                    <span>Standalone (.exe) <span className="btn-tag">Portable</span></span>
+                  </a>
+                  <a 
+                    href={directDownloadUrl(windowsPortableZipDownloadUrl)} 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn btn-lg btn-secondary dlu-split-btn"
+                  >
+                    <i className="ri-file-zip-line"></i>
+                    <span>Portable ZIP (.zip) <span className="btn-tag">Archive</span></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            {/* Linux Desktop */}
+            <div className="dlu-item">
+              <div className="dlu-icon">
+                <i className="ri-linux-fill"></i>
+              </div>
+              <h3 className="dlu-title">Linux</h3>
+              <p className="dlu-desc">{linuxFileSize} • {formatCount(downloadStats.linux || 0)}+ downloads • Ubuntu, Debian, Fedora &amp; Arch.</p>
+              <div className="dlu-detail">
+                <div className="dlu-btn-group">
+                  <a 
+                    href={directDownloadUrl(linuxAppImageDownloadUrl)} 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn btn-lg btn-pre dlu-split-btn"
+                  >
+                    <i className="ri-linux-fill"></i>
+                    <span>Linux (.AppImage) <span className="btn-tag">Universal</span></span>
+                  </a>
+                </div>
+                <p style={{ fontSize: '12px', color: 'var(--text-muted)', marginTop: '12px', lineHeight: '1.45', marginBottom: 0 }}>
+                  🐧 <strong>Linux Users (x86_64):</strong> Make the <code>.AppImage</code> executable with <code>chmod +x</code> and run directly on any distribution.
                 </p>
               </div>
             </div>
@@ -493,7 +521,7 @@ export default function Home({ updateData }) {
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '4px', marginBottom: '0.75rem' }}>
                   <h4 style={{ fontSize: '0.98rem', color: '#ffffff', display: 'flex', alignItems: 'center', gap: '8px', margin: 0, whiteSpace: 'nowrap' }}>
                     <i className="ri-smartphone-line" style={{ color: 'var(--accent-primary)', flexShrink: 0 }}></i>
-                    <span>Mobile v{updateData?.version || '1.3.2'} Release Notes</span>
+                    <span>Mobile v{updateData?.version || '1.3.3'} Release Notes</span>
                   </h4>
                   <span style={{ fontSize: '0.82rem', color: 'var(--text-muted)' }}>
                     Released: {updatedAt}
@@ -519,10 +547,10 @@ export default function Home({ updateData }) {
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '4px', marginBottom: '0.75rem' }}>
                   <h4 style={{ fontSize: '0.98rem', color: '#ffffff', display: 'flex', alignItems: 'center', gap: '8px', margin: 0, whiteSpace: 'nowrap' }}>
                     <i className="ri-tv-line" style={{ color: '#3DDC84', flexShrink: 0 }}></i>
-                    <span>Android TV v{tvData?.version || '1.3.2'} Release Notes</span>
+                    <span>Android TV v{tvData?.version || '1.3.3'} Release Notes</span>
                   </h4>
                   <span style={{ fontSize: '0.82rem', color: 'var(--text-muted)' }}>
-                    Released: {tvData?.updatedAt || '2026-11-19'}
+                    Released: {tvData?.updatedAt || '2026-11-26'}
                   </span>
                 </div>
                 <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem', lineHeight: '1.6', margin: 0 }}>
@@ -531,8 +559,8 @@ export default function Home({ updateData }) {
               </div>
             )}
 
-            {/* Desktop Release Notes */}
-            {desktopReleaseNotes && (
+            {/* Windows Release Notes */}
+            {windowsReleaseNotes && (
               <div className="release-notes-card" style={{
                 padding: '1.35rem 1.25rem',
                 borderRadius: '18px',
@@ -544,15 +572,41 @@ export default function Home({ updateData }) {
               }}>
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '4px', marginBottom: '0.75rem' }}>
                   <h4 style={{ fontSize: '0.98rem', color: '#ffffff', display: 'flex', alignItems: 'center', gap: '8px', margin: 0, whiteSpace: 'nowrap' }}>
-                    <i className="ri-computer-line" style={{ color: '#00A8E1', flexShrink: 0 }}></i>
-                    <span>Desktop v{desktopVersion} Release Notes</span>
+                    <i className="ri-windows-fill" style={{ color: '#0078D4', flexShrink: 0 }}></i>
+                    <span>Windows v{windowsVersion} Release Notes</span>
                   </h4>
                   <span style={{ fontSize: '0.82rem', color: 'var(--text-muted)' }}>
-                    Released: {desktopUpdatedAt}
+                    Released: {windowsUpdatedAt}
                   </span>
                 </div>
                 <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem', lineHeight: '1.6', margin: 0 }}>
-                  {desktopReleaseNotes}
+                  {windowsReleaseNotes}
+                </p>
+              </div>
+            )}
+
+            {/* Linux Release Notes */}
+            {linuxReleaseNotes && (
+              <div className="release-notes-card" style={{
+                padding: '1.35rem 1.25rem',
+                borderRadius: '18px',
+                background: 'rgba(255, 255, 255, 0.02)',
+                border: '1px solid rgba(255, 255, 255, 0.06)',
+                textAlign: 'left',
+                backdropFilter: 'blur(10px)',
+                height: '100%'
+              }}>
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '4px', marginBottom: '0.75rem' }}>
+                  <h4 style={{ fontSize: '0.98rem', color: '#ffffff', display: 'flex', alignItems: 'center', gap: '8px', margin: 0, whiteSpace: 'nowrap' }}>
+                    <i className="ri-linux-fill" style={{ color: '#FCC624', flexShrink: 0 }}></i>
+                    <span>Linux v{linuxVersion} Release Notes</span>
+                  </h4>
+                  <span style={{ fontSize: '0.82rem', color: 'var(--text-muted)' }}>
+                    Released: {linuxUpdatedAt}
+                  </span>
+                </div>
+                <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem', lineHeight: '1.6', margin: 0 }}>
+                  {linuxReleaseNotes}
                 </p>
               </div>
             )}

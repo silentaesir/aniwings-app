@@ -4,24 +4,25 @@
 
 # AniWings
 
-### Modern Anime Streaming for Android, iOS, Android TV & Desktop
+### Modern Anime Streaming for Android, iOS, Android TV, Windows & Linux
 
-**Clean UI · SUB & DUB · Manga · Extensions · Downloads · Anime Tracking · iOS, TV & Desktop Support**
+**Clean UI · SUB & DUB · Manga · Extensions · Downloads · Anime Tracking · Windows & Linux Support**
 
 <br>
 
 [![Total Downloads](https://img.shields.io/badge/Total_Downloads-8.9k+-FF2A54?style=for-the-badge&logo=github&logoColor=white)](https://github.com/silentaesir/aniwings-app/releases)
-[![Mobile Downloads](https://img.shields.io/badge/Mobile-8.0k+_Downloads-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/silentaesir/aniwings-app/releases)
-[![iOS](https://img.shields.io/badge/iOS-New_Release-000000?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/silentaesir/aniwings-app/releases/download/ios-v1.3.2/AniWings-ios.ipa)
-[![TV Downloads](https://img.shields.io/badge/Android_TV-869+_Downloads-00A8E1?style=for-the-badge&logo=androidtv&logoColor=white)](https://github.com/silentaesir/aniwings-app/releases)
-[![Desktop](https://img.shields.io/badge/Desktop-New_Release-0078D4?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/silentaesir/aniwings-app/releases)
+[![Mobile Downloads](https://img.shields.io/badge/Mobile-v1.3.3-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/silentaesir/aniwings-app/releases/tag/v1.3.3)
+[![iOS](https://img.shields.io/badge/iOS-v1.3.3-000000?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/silentaesir/aniwings-app/releases/tag/ios-v1.3.3)
+[![TV Downloads](https://img.shields.io/badge/Android_TV-v1.3.3-00A8E1?style=for-the-badge&logo=androidtv&logoColor=white)](https://github.com/silentaesir/aniwings-app/releases/tag/tv-v1.3.3)
+[![Windows](https://img.shields.io/badge/Windows-v1.3.2-0078D4?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/silentaesir/aniwings-app/releases/tag/windows-v1.3.2)
+[![Linux](https://img.shields.io/badge/Linux-v1.3.2-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://github.com/silentaesir/aniwings-app/releases/tag/linux-v1.3.2)
 [![Website](https://img.shields.io/badge/Official_Website-Visit-6C5CE7?style=for-the-badge&logo=googlechrome&logoColor=white)](https://ani-wings.web.app/)
 [![Discord](https://img.shields.io/badge/Discord-Join-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/qAVCQ8a9S)
 
 <br>
 
 [![GitHub Release](https://img.shields.io/github/v/release/silentaesir/aniwings-app?style=flat-square&label=Latest%20Release)](https://github.com/silentaesir/aniwings-app/releases)
-![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20iOS%20%7C%20Android%20TV%20%7C%20Desktop-blue?style=flat-square)
+![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20iOS%20%7C%20TV%20%7C%20Windows%20%7C%20Linux-blue?style=flat-square)
 ![Extensions](https://img.shields.io/badge/Extensions-Mobile-purple?style=flat-square)
 ![Ads](https://img.shields.io/badge/Ads-Optional-success?style=flat-square)
 ![iOS](https://img.shields.io/badge/iOS-Available%20(.ipa)-success?style=flat-square)
@@ -38,21 +39,22 @@
 
 Total download counts breakdown across all official releases:
 
-| Device / Platform | Total Downloads | Latest Version | Supported Systems & Formats |
-| :--- | :---: | :---: | :--- |
-| 📱 **Android Mobile** | **8,058+** (~8.1k) | `v1.3.2` | Universal APK, ARM64-v8a APK, armeabi-v7a APK |
-| 🍎 **iOS (iPhone & iPad)** | **Pending** | `v1.2.6` | Universal iOS Package (`.ipa`) |
-| 📺 **Android TV** | **869+** | `v1.3.2` | Universal TV APK, ARM64 TV APK, armeabi-v7a TV APK |
-| 💻 **Desktop (PC)** | **27+** *(New)* | `v1.3.1` | Windows Setup (.exe), Standalone (.exe), Portable (.zip), Linux (.AppImage) |
-| 🌟 **Total Across Devices** | **8,954+** (~9.0k) | — | **All Supported Platforms** |
+| Device / Platform | Total Downloads | Latest Version | Supported Systems & Formats | Release Tag |
+| :--- | :---: | :---: | :--- | :---: |
+| 📱 **Android Mobile** | **8,058+** (~8.1k) | `v1.3.3` | Universal APK, ARM64-v8a APK, armeabi-v7a APK | [`v1.3.3`](https://github.com/silentaesir/aniwings-app/releases/tag/v1.3.3) |
+| 🍎 **iOS (iPhone & iPad)** | **New Release** | `v1.3.3` | Universal iOS Package (`.ipa`) | [`ios-v1.3.3`](https://github.com/silentaesir/aniwings-app/releases/tag/ios-v1.3.3) |
+| 📺 **Android TV** | **869+** | `v1.3.3` | Universal TV APK, ARM64 TV APK, armeabi-v7a TV APK | [`tv-v1.3.3`](https://github.com/silentaesir/aniwings-app/releases/tag/tv-v1.3.3) |
+| 🪟 **Windows PC** | **20+** *(New)* | `v1.3.2` | Windows Setup (.exe), Standalone (.exe), Portable (.zip) | [`windows-v1.3.2`](https://github.com/silentaesir/aniwings-app/releases/tag/windows-v1.3.2) |
+| 🐧 **Linux PC** | **7+** *(New)* | `v1.3.2` | Universal Linux (.AppImage) | [`linux-v1.3.2`](https://github.com/silentaesir/aniwings-app/releases/tag/linux-v1.3.2) |
+| 🌟 **Total Across Devices** | **8,954+** (~9.0k) | — | **All Supported Platforms** | — |
 
 ---
 
 ## What is AniWings?
 
-**AniWings** is a modern anime streaming client designed for **Android phones, tablets, iOS (iPhone & iPad), Android TV, Google TV, Amazon Fire TV, NVIDIA Shield TV, and Desktop (Windows & Linux)**.
+**AniWings** is a modern anime streaming client designed for **Android phones, tablets, iOS (iPhone & iPad), Android TV, Google TV, Amazon Fire TV, NVIDIA Shield TV, Windows, and Linux**.
 
-Discover anime, browse seasonal releases, follow airing schedules, manage your library, track episodes, use multiple providers, install provider extensions, download supported episodes, and watch through an interface designed specifically for mobile devices, televisions, and desktop PCs.
+Discover anime, browse seasonal releases, follow airing schedules, manage your library, track episodes, use multiple providers, install provider extensions, download supported episodes, and watch through an interface designed specifically for mobile devices, televisions, and desktop computers.
 
 > **No mandatory AniWings account. No intrusive advertising. Just anime.**
 
@@ -67,63 +69,75 @@ Discover anime, browse seasonal releases, follow airing schedules, manage your l
 - 📊 **Anime Tracking** — Support for AniList, MyAnimeList, Kitsu, and AniDB.
 - 🍎 **iOS Support** — Dedicated `.ipa` build for iPhone and iPad.
 - 📺 **Dedicated TV Experience** — TV-optimized layouts with full D-pad navigation.
-- 💻 **Desktop Experience** — High performance native client for Windows and Linux.
+- 🪟 **Windows Experience** — Native 64-bit client for Windows 10 & 11 with installer and zero-install portable formats.
+- 🐧 **Linux Experience** — Universal AppImage with full hardware acceleration on Ubuntu, Debian, Fedora, and Arch.
 - 🗣️ **SUB & DUB** — Access subtitled and dubbed sources where available.
 
 ---
 
 # 📥 Downloads
 
-## 📱 Android Mobile — v1.3.2 `(8,058+ Downloads)`
+## 📱 Android Mobile — v1.3.3 `(8,058+ Downloads)`
 
 Choose the build that best matches your Android device.
 
 | Build | Architecture / Device | Download |
 | --- | --- | :---: |
-| **Universal APK** | Most Android phones & tablets (All ABIs) | [![Download](https://img.shields.io/badge/Download-Universal_APK-3DDC84?style=flat-square&logo=android&logoColor=white)](https://github.com/silentaesir/aniwings-app/releases/download/v1.3.2/AniWings-universal.apk) |
-| **ARM64-v8a APK** | Modern 64-bit Android devices | [![Download](https://img.shields.io/badge/Download-ARM64--v8a-3DDC84?style=flat-square&logo=android&logoColor=white)](https://github.com/silentaesir/aniwings-app/releases/download/v1.3.2/AniWings-arm64-v8a.apk) |
-| **armeabi-v7a APK** | Older 32-bit Android devices | [![Download](https://img.shields.io/badge/Download-armeabi--v7a-3DDC84?style=flat-square&logo=android&logoColor=white)](https://github.com/silentaesir/aniwings-app/releases/download/v1.3.2/AniWings-armeabi-v7a.apk) |
+| **Universal APK** | Most Android phones & tablets (All ABIs) | [![Download](https://img.shields.io/badge/Download-Universal_APK-3DDC84?style=flat-square&logo=android&logoColor=white)](https://github.com/silentaesir/aniwings-app/releases/download/v1.3.3/AniWings-universal.apk) |
+| **ARM64-v8a APK** | Modern 64-bit Android devices | [![Download](https://img.shields.io/badge/Download-ARM64--v8a-3DDC84?style=flat-square&logo=android&logoColor=white)](https://github.com/silentaesir/aniwings-app/releases/download/v1.3.3/AniWings-arm64-v8a.apk) |
+| **armeabi-v7a APK** | Older 32-bit Android devices | [![Download](https://img.shields.io/badge/Download-armeabi--v7a-3DDC84?style=flat-square&logo=android&logoColor=white)](https://github.com/silentaesir/aniwings-app/releases/download/v1.3.3/AniWings-armeabi-v7a.apk) |
 
 > 💡 **Not sure which one to download?** Choose the **Universal APK**.
 
 ---
 
-## 📺 Android TV — v1.3.2 `(869+ Downloads)`
+## 📺 Android TV — v1.3.3 `(869+ Downloads)`
 
 Optimized for **Android TV, Google TV, Amazon Fire TV, NVIDIA Shield TV, and compatible Android TV boxes**.
 
 | Build | Recommended Device | Download |
 | --- | --- | :---: |
-| **Universal TV APK** | Most TVs & TV boxes (All ABIs) | [![Download](https://img.shields.io/badge/Download-TV_Universal-00A8E1?style=flat-square&logo=androidtv&logoColor=white)](https://github.com/silentaesir/aniwings-app/releases/download/tv-v1.3.2/aniwings-tv-v1.3.2-universal.apk) |
-| **ARM64-v8a TV APK** | Modern 64-bit TV devices | [![Download](https://img.shields.io/badge/Download-TV_ARM64-00A8E1?style=flat-square&logo=androidtv&logoColor=white)](https://github.com/silentaesir/aniwings-app/releases/download/tv-v1.3.2/aniwings-tv-v1.3.2-arm64-v8a.apk) |
-| **armeabi-v7a TV APK** | Older 32-bit TV boxes | [![Download](https://img.shields.io/badge/Download-TV_ARMv7-00A8E1?style=flat-square&logo=androidtv&logoColor=white)](https://github.com/silentaesir/aniwings-app/releases/download/tv-v1.3.2/aniwings-tv-v1.3.2-armeabi-v7a.apk) |
+| **Universal TV APK** | Most TVs & TV boxes (All ABIs) | [![Download](https://img.shields.io/badge/Download-TV_Universal-00A8E1?style=flat-square&logo=androidtv&logoColor=white)](https://github.com/silentaesir/aniwings-app/releases/download/tv-v1.3.3/aniwings-tv-v1.3.3-universal.apk) |
+| **ARM64-v8a TV APK** | Modern 64-bit TV devices | [![Download](https://img.shields.io/badge/Download-TV_ARM64-00A8E1?style=flat-square&logo=androidtv&logoColor=white)](https://github.com/silentaesir/aniwings-app/releases/download/tv-v1.3.3/aniwings-tv-v1.3.3-arm64-v8a.apk) |
+| **armeabi-v7a TV APK** | Older 32-bit TV boxes | [![Download](https://img.shields.io/badge/Download-TV_ARMv7-00A8E1?style=flat-square&logo=androidtv&logoColor=white)](https://github.com/silentaesir/aniwings-app/releases/download/tv-v1.3.3/aniwings-tv-v1.3.3-armeabi-v7a.apk) |
 
 > 📺 For most televisions and TV boxes, choose the **Universal TV APK**.
 
 ---
 
-## 💻 Desktop (Windows & Linux) — v1.3.1 `(27+ Downloads)`
+## 🪟 Windows (PC) — v1.3.2 `(20+ Downloads)`
 
-Native desktop builds for **Windows 10/11 (64-bit)** and **Linux distributions**.
+Native 64-bit desktop builds for **Windows 10 and Windows 11**.
 
 | Build | Type & Recommendation | Download |
 | --- | --- | :---: |
-| **Windows Setup (.exe)** | Windows 10 & 11 (Installer with Start & Desktop shortcuts) | [![Download](https://img.shields.io/badge/Download-Windows_Setup-0078D4?style=flat-square&logo=windows&logoColor=white)](https://github.com/silentaesir/aniwings-app/releases/download/desktop-v1.3.1/aniwings-desktop-windows-v1.3.1-setup.exe) |
-| **Windows Standalone (.exe)** | Windows 10 & 11 (Portable Single Executable / Direct Run) | [![Download](https://img.shields.io/badge/Download-Standalone_EXE-0078D4?style=flat-square&logo=windows&logoColor=white)](https://github.com/silentaesir/aniwings-app/releases/download/desktop-v1.3.1/aniwings-desktop-windows-v1.3.1.exe) |
-| **Windows Portable (.zip)** | Windows 10 & 11 (Portable Archive / No Installation) | [![Download](https://img.shields.io/badge/Download-Portable_ZIP-0078D4?style=flat-square&logo=windows&logoColor=white)](https://github.com/silentaesir/aniwings-app/releases/download/desktop-v1.3.1/aniwings-desktop-windows-v1.3.1-portable.zip) |
-| **Linux (.AppImage)** | Universal Linux x86_64 (Self-contained AppImage) | [![Download](https://img.shields.io/badge/Download-Linux_AppImage-FCC624?style=flat-square&logo=linux&logoColor=black)](https://github.com/silentaesir/aniwings-app/releases/download/desktop-v1.3.1/aniwings-desktop-linux-v1.3.1.AppImage) |
+| **Windows Setup (.exe)** | Windows 10 & 11 (Installer with Start & Desktop shortcuts) | [![Download](https://img.shields.io/badge/Download-Windows_Setup-0078D4?style=flat-square&logo=windows&logoColor=white)](https://github.com/silentaesir/aniwings-app/releases/download/windows-v1.3.2/aniwings-desktop-windows-v1.3.2-setup.exe) |
+| **Windows Standalone (.exe)** | Windows 10 & 11 (Portable Single Executable / Direct Run) | [![Download](https://img.shields.io/badge/Download-Standalone_EXE-0078D4?style=flat-square&logo=windows&logoColor=white)](https://github.com/silentaesir/aniwings-app/releases/download/windows-v1.3.2/aniwings-desktop-windows-v1.3.2.exe) |
+| **Windows Portable (.zip)** | Windows 10 & 11 (Portable Archive / No Installation) | [![Download](https://img.shields.io/badge/Download-Portable_ZIP-0078D4?style=flat-square&logo=windows&logoColor=white)](https://github.com/silentaesir/aniwings-app/releases/download/windows-v1.3.2/aniwings-desktop-windows-v1.3.2-portable.zip) |
 
-> 💻 **Recommendation:** Use **Windows Setup (.exe)** for standard installation, **Windows Standalone (.exe)** or **Portable (.zip)** for zero-install portable use, or **Linux (.AppImage)** on Linux distributions.
+> 🪟 **Recommendation:** Use **Windows Setup (.exe)** for standard installation, or **Windows Standalone (.exe)** / **Portable (.zip)** for zero-install portable use.
 
 ---
 
-## 🍎 iOS (iPhone & iPad) — Pending
+## 🐧 Linux (PC) — v1.3.2 `(7+ Downloads)`
+
+Native Linux build for **Ubuntu, Debian, Fedora, Arch Linux, Linux Mint, and derivatives**.
+
+| Build | Distribution & Format | Download |
+| --- | --- | :---: |
+| **Linux (.AppImage)** | Universal Linux x86_64 (Self-contained, all distributions) | [![Download](https://img.shields.io/badge/Download-Linux_AppImage-FCC624?style=flat-square&logo=linux&logoColor=black)](https://github.com/silentaesir/aniwings-app/releases/download/linux-v1.3.2/aniwings-desktop-linux-v1.3.2.AppImage) |
+
+> 🐧 **Recommendation:** Use **Linux (.AppImage)** for instant execution across all Linux distributions.
+
+---
+
+## 🍎 iOS (iPhone & iPad) — v1.3.3
 
 Official installable `.ipa` package for **iPhone and iPad** devices.
 
 | Build | Device & Format | Download |
 | --- | --- | :---: |
-| **AniWings iOS (.ipa)** | iPhone & iPad (Universal iOS Package) | [![Download](https://img.shields.io/badge/Download-iOS_IPA-000000?style=flat-square&logo=apple&logoColor=white)](https://github.com/silentaesir/aniwings-app/releases/download/ios-v1.3.2/AniWings-ios.ipa) |
+| **AniWings iOS (.ipa)** | iPhone & iPad (Universal iOS Package) | [![Download](https://img.shields.io/badge/Download-iOS_IPA-000000?style=flat-square&logo=apple&logoColor=white)](https://github.com/silentaesir/aniwings-app/releases/download/ios-v1.3.3/AniWings-ios.ipa) |
 
 > 📱 **iOS Users (`AniWings-ios.ipa`):** Download the `.ipa` and install it using **SideStore**, **AltStore**, **Sideloadly**, **Feather**, or **TrollStore**.
 
@@ -374,7 +388,7 @@ https://aniwings-app.pages.dev
 1. Download:
 
 ```text
-aniwings-tv-v1.3.0-universal.apk
+aniwings-tv-v1.3.3-universal.apk
 ```
 
 2. Copy the APK to a USB flash drive.
@@ -390,24 +404,33 @@ aniwings-tv-v1.3.0-universal.apk
 
 <details>
 
-<summary><b>💻 Desktop (Windows 10/11 & Linux)</b></summary>
+<summary><b>🪟 Windows (10 & 11)</b></summary>
 
 <br>
 
-### 🪟 Windows (10 & 11)
-- **Installer (Recommended):** Download `aniwings-desktop-windows-v1.2.6-setup.exe` and run the installer. Creates Start Menu and Desktop shortcuts.
-- **Standalone:** Download `aniwings-desktop-windows-v1.2.6.exe` to run immediately with zero installation.
-- **Portable ZIP:** Download `aniwings-desktop-windows-v1.2.6-portable.zip`, extract to any folder, and run `aniwings.exe`.
+- **Installer (Recommended):** Download `aniwings-desktop-windows-v1.3.2-setup.exe` and run the installer. Creates Start Menu and Desktop shortcuts automatically.
+- **Standalone:** Download `aniwings-desktop-windows-v1.3.2.exe` to run immediately with zero installation.
+- **Portable ZIP:** Download `aniwings-desktop-windows-v1.3.2-portable.zip`, extract to any folder, and run `aniwings.exe`.
 
-### 🐧 Linux (x86_64)
-1. Download `aniwings-desktop-linux-v1.2.6.AppImage`.
+</details>
+
+<br>
+
+<details>
+
+<summary><b>🐧 Linux (Ubuntu, Debian, Fedora, Arch & Derivatives)</b></summary>
+
+<br>
+
+### AppImage (Universal)
+1. Download `aniwings-desktop-linux-v1.3.2.AppImage`.
 2. Make it executable:
    ```bash
-   chmod +x aniwings-desktop-linux-v1.2.6.AppImage
+   chmod +x aniwings-desktop-linux-v1.3.2.AppImage
    ```
 3. Launch:
    ```bash
-   ./aniwings-desktop-linux-v1.2.6.AppImage
+   ./aniwings-desktop-linux-v1.3.2.AppImage
    ```
 
 </details>
@@ -445,7 +468,7 @@ aniwings-tv-v1.3.0-universal.apk
 | 📺 Google TV | ✅ | Full TV experience |
 | 🔥 Amazon Fire TV | ✅ | Fire OS compatible TV build |
 | 🛡️ NVIDIA Shield TV | ✅ | TV build |
-| 💻 Windows PC (10 & 11) | ✅ | Installer (.exe), Standalone (.exe), Portable (.zip) |
+| 🪟 Windows PC (10 & 11) | ✅ | Installer (.exe), Standalone (.exe), Portable (.zip) |
 | 🐧 Linux PC (x86_64) | ✅ | Universal Linux (.AppImage) |
 
 ---
@@ -454,26 +477,27 @@ aniwings-tv-v1.3.0-universal.apk
 
 Feature availability across platforms:
 
-| Feature | 📱 Mobile | 📺 Android TV | 💻 Desktop |
-| --- | :---: | :---: | :---: |
-| Anime Streaming | ✅ | ✅ | ✅ |
-| SUB & DUB Audio | ✅ | ✅ | ✅ |
-| Multiple Providers | ✅ | ✅ | ✅ |
-| Extension System | ✅ | ❌ | ❌ |
-| Extension Manager | ✅ | ❌ | ❌ |
-| Episode Downloads | ✅ | — | ✅ |
-| Custom DNS | ✅ | — | — |
-| Profile Customization | ✅ | — | ✅ |
-| Anime Tracking (AniList/MAL) | ✅ | ✅ | ✅ |
-| Airing Schedule | ✅ | ✅ | ✅ |
-| QR Login Controller | ✅ | — | — |
-| QR Login Receiver | — | ✅ | — |
-| D-pad Navigation | — | ✅ | — |
-| Keyboard / Mouse Navigation | — | — | ✅ |
-| Native Window Controls | — | — | ✅ |
-| HDR Support | — | ✅ | — |
-| Fire TV Support | — | ✅ | — |
-| NVIDIA Shield TV | — | ✅ | — |
+| Feature | 📱 Mobile | 📺 Android TV | 🪟 Windows | 🐧 Linux |
+| --- | :---: | :---: | :---: | :---: |
+| Anime Streaming | ✅ | ✅ | ✅ | ✅ |
+| SUB & DUB Audio | ✅ | ✅ | ✅ | ✅ |
+| Multiple Providers | ✅ | ✅ | ✅ | ✅ |
+| Extension System | ✅ | ❌ | ❌ | ❌ |
+| Extension Manager | ✅ | ❌ | ❌ | ❌ |
+| Episode Downloads | ✅ | — | ✅ | ✅ |
+| Custom DNS | ✅ | — | — | — |
+| Profile Customization | ✅ | — | ✅ | ✅ |
+| Anime Tracking (AniList/MAL) | ✅ | ✅ | ✅ | ✅ |
+| Airing Schedule | ✅ | ✅ | ✅ | ✅ |
+| QR Login Controller | ✅ | — | — | — |
+| QR Login Receiver | — | ✅ | — | — |
+| D-pad Navigation | — | ✅ | — | — |
+| Keyboard / Mouse Navigation | — | — | ✅ | ✅ |
+| Native Window Controls | — | — | ✅ | ✅ |
+| Hardware Video Acceleration | ✅ | ✅ | ✅ | ✅ |
+| HDR Support | — | ✅ | — | — |
+| Fire TV Support | — | ✅ | — | — |
+| NVIDIA Shield TV | — | ✅ | — | — |
 
 ---
 
@@ -498,7 +522,7 @@ When reporting an issue, including the following information will make troublesh
 Device:
 Operating System & Version:
 AniWings Version:
-Platform (Mobile / TV / Desktop):
+Platform (Mobile / TV / Windows / Linux):
 Anime:
 Episode:
 Provider / Extension:
