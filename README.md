@@ -10,7 +10,7 @@
 
 <br>
 
-[![Total Downloads](https://img.shields.io/badge/Total_Downloads-8.9k+-FF2A54?style=for-the-badge&logo=github&logoColor=white)](https://github.com/silentaesir/aniwings-app/releases)
+[![Total Downloads](https://img.shields.io/badge/Total_Downloads-9.3k+-FF2A54?style=for-the-badge&logo=github&logoColor=white)](https://github.com/silentaesir/aniwings-app/releases)
 [![Mobile Downloads](https://img.shields.io/badge/Mobile-v1.3.3-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/silentaesir/aniwings-app/releases/tag/v1.3.3)
 [![iOS](https://img.shields.io/badge/iOS-v1.3.3-000000?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/silentaesir/aniwings-app/releases/tag/ios-v1.3.3)
 [![TV Downloads](https://img.shields.io/badge/Android_TV-v1.3.3-00A8E1?style=for-the-badge&logo=androidtv&logoColor=white)](https://github.com/silentaesir/aniwings-app/releases/tag/tv-v1.3.3)
@@ -29,7 +29,7 @@
 
 <br>
 
-**[Downloads](#-downloads) • [Download Statistics](#-download-statistics) • [Features](#-features) • [Manga Reader](#-manga-reader--offline-downloads) • [Extensions](#-mobile-extension-support) • [Installation](#-installation) • [Community](#-community)**
+**[Downloads](#-downloads) • [Download Statistics](#-download-statistics) • [Features](#-features) • [Manga & Light Novels](#-manga--light-novel-reader-with-offline-downloads) • [Discord Rich Presence](#-discord-rich-presence-setup) • [Desktop Sync & Import/Export](#-desktop-library-sync--import--export) • [TV Sign-In](#-tv-sign-in-qr-code--manual-login) • [Installation](#-installation) • [Community](#-community)**
 
 </div>
 
@@ -41,12 +41,12 @@ Total download counts breakdown across all official releases:
 
 | Device / Platform | Total Downloads | Latest Version | Supported Systems & Formats | Release Tag |
 | :--- | :---: | :---: | :--- | :---: |
-| 📱 **Android Mobile** | **8,058+** (~8.1k) | `v1.3.3` | Universal APK, ARM64-v8a APK, armeabi-v7a APK | [`v1.3.3`](https://github.com/silentaesir/aniwings-app/releases/tag/v1.3.3) |
-| 🍎 **iOS (iPhone & iPad)** | **New Release** | `v1.3.3` | Universal iOS Package (`.ipa`) | [`ios-v1.3.3`](https://github.com/silentaesir/aniwings-app/releases/tag/ios-v1.3.3) |
-| 📺 **Android TV** | **869+** | `v1.3.3` | Universal TV APK, ARM64 TV APK, armeabi-v7a TV APK | [`tv-v1.3.3`](https://github.com/silentaesir/aniwings-app/releases/tag/tv-v1.3.3) |
-| 🪟 **Windows PC** | **20+** *(New)* | `v1.3.2` | Windows Setup (.exe), Standalone (.exe), Portable (.zip) | [`windows-v1.3.2`](https://github.com/silentaesir/aniwings-app/releases/tag/windows-v1.3.2) |
-| 🐧 **Linux PC** | **7+** *(New)* | `v1.3.2` | Universal Linux (.AppImage) | [`linux-v1.3.2`](https://github.com/silentaesir/aniwings-app/releases/tag/linux-v1.3.2) |
-| 🌟 **Total Across Devices** | **8,954+** (~9.0k) | — | **All Supported Platforms** | — |
+| 📱 **Android Mobile** | **8,325+** (~8.3k) | `v1.3.3` | Universal APK, ARM64-v8a APK, armeabi-v7a APK | [`v1.3.3`](https://github.com/silentaesir/aniwings-app/releases/tag/v1.3.3) |
+| 🍎 **iOS (iPhone & iPad)** | **3+** *(New)* | `v1.3.3` | Universal iOS Package (`.ipa`) | [`ios-v1.3.3`](https://github.com/silentaesir/aniwings-app/releases/tag/ios-v1.3.3) |
+| 📺 **Android TV** | **940+** | `v1.3.3` | Universal TV APK, ARM64 TV APK, armeabi-v7a TV APK | [`tv-v1.3.3`](https://github.com/silentaesir/aniwings-app/releases/tag/tv-v1.3.3) |
+| 🪟 **Windows PC** | **39+** *(New)* | `v1.3.2` | Windows Setup (.exe), Standalone (.exe), Portable (.zip) | [`windows-v1.3.2`](https://github.com/silentaesir/aniwings-app/releases/tag/windows-v1.3.2) |
+| 🐧 **Linux PC** | **12+** *(New)* | `v1.3.2` | Universal Linux (.AppImage) | [`linux-v1.3.2`](https://github.com/silentaesir/aniwings-app/releases/tag/linux-v1.3.2) |
+| 🌟 **Total Across Devices** | **9,319+** (~9.3k) | — | **All Supported Platforms** | — |
 
 ---
 
@@ -63,9 +63,12 @@ Discover anime, browse seasonal releases, follow airing schedules, manage your l
 - 🚫 **No Mandatory Sign-up** — Start browsing and watching without creating an AniWings account.
 - 🎨 **Modern Interface** — A redesigned experience built for phones, tablets, televisions, and desktop computers.
 - 🎬 **Multiple Providers** — Switch between available streaming sources when needed.
-- 📖 **Manga Reader** — Read manga and download chapters offline on mobile.
+- 📖 **Manga & Light Novel Reader** — Read thousands of manga and light novels with offline download support on mobile (Android & iOS).
+- 🎮 **Discord Rich Presence** — Showcase what you're watching on Discord in real time with quick and easy setup on Android, iOS, Windows, and Linux.
+- 🔄 **Desktop Library Sync & Import/Export** — Sync with AniList and MyAnimeList via username or OAuth, and easily import/export watchlist data on Windows & Linux.
+- 🔑 **TV Dual Sign-In** — Sign in smoothly using either Mobile ↔ TV QR Code Login or direct on-screen Manual Login.
 - 🔌 **Extension Support** — Expand AniWings Mobile with additional provider extensions.
-- ⬇️ **Offline Downloads** — Download supported episodes for offline viewing.
+- ⬇️ **Offline Downloads** — Download supported episodes, manga chapters, and novel volumes for offline viewing.
 - 📊 **Anime Tracking** — Support for AniList, MyAnimeList, Kitsu, and AniDB.
 - 🍎 **iOS Support** — Dedicated `.ipa` build for iPhone and iPad.
 - 📺 **Dedicated TV Experience** — TV-optimized layouts with full D-pad navigation.
@@ -77,7 +80,7 @@ Discover anime, browse seasonal releases, follow airing schedules, manage your l
 
 # 📥 Downloads
 
-## 📱 Android Mobile — v1.3.3 `(8,058+ Downloads)`
+## 📱 Android Mobile — v1.3.3 `(8,325+ Downloads)`
 
 Choose the build that best matches your Android device.
 
@@ -91,7 +94,7 @@ Choose the build that best matches your Android device.
 
 ---
 
-## 📺 Android TV — v1.3.3 `(869+ Downloads)`
+## 📺 Android TV — v1.3.3 `(940+ Downloads)`
 
 Optimized for **Android TV, Google TV, Amazon Fire TV, NVIDIA Shield TV, and compatible Android TV boxes**.
 
@@ -105,7 +108,7 @@ Optimized for **Android TV, Google TV, Amazon Fire TV, NVIDIA Shield TV, and com
 
 ---
 
-## 🪟 Windows (PC) — v1.3.2 `(20+ Downloads)`
+## 🪟 Windows (PC) — v1.3.2 `(39+ Downloads)`
 
 Native 64-bit desktop builds for **Windows 10 and Windows 11**.
 
@@ -119,7 +122,7 @@ Native 64-bit desktop builds for **Windows 10 and Windows 11**.
 
 ---
 
-## 🐧 Linux (PC) — v1.3.2 `(7+ Downloads)`
+## 🐧 Linux (PC) — v1.3.2 `(12+ Downloads)`
 
 Native Linux build for **Ubuntu, Debian, Fedora, Arch Linux, Linux Mint, and derivatives**.
 
@@ -131,13 +134,15 @@ Native Linux build for **Ubuntu, Debian, Fedora, Arch Linux, Linux Mint, and der
 
 ---
 
-## 🍎 iOS (iPhone & iPad) — v1.3.3
+## 🍎 iOS (iPhone & iPad) — v1.3.3 `(3+ Downloads)`
 
 Official installable `.ipa` package for **iPhone and iPad** devices.
 
 | Build | Device & Format | Download |
 | --- | --- | :---: |
 | **AniWings iOS (.ipa)** | iPhone & iPad (Universal iOS Package) | [![Download](https://img.shields.io/badge/Download-iOS_IPA-000000?style=flat-square&logo=apple&logoColor=white)](https://github.com/silentaesir/aniwings-app/releases/download/ios-v1.3.3/AniWings-ios.ipa) |
+
+> 📱 **iOS Users (`AniWings-ios.ipa`):** Download the `.ipa` and install it using **SideStore**, **AltStore**, **Sideloadly**, **Feather**, or **TrollStore**.
 
 > 📱 **iOS Users (`AniWings-ios.ipa`):** Download the `.ipa` and install it using **SideStore**, **AltStore**, **Sideloadly**, **Feather**, or **TrollStore**.
 
@@ -160,32 +165,70 @@ AniWings provides multiple ways to find and watch supported anime content.
 
 ---
 
-# 📖 Manga Reader & Offline Downloads
+# 📖 Manga & Light Novel Reader (with Offline Downloads)
 
-> ### 📱 Available on AniWings for Android Mobile
+> ### 📱 Available on AniWings Mobile (Android & iOS)
 
-AniWings Mobile now includes a full-featured **Manga Reader** with built-in **offline downloading**, bringing you a complete entertainment hub for both anime and manga.
+AniWings Mobile now includes a full-featured **Manga and Light Novel Reader** with built-in **offline downloading**, bringing you a complete entertainment hub for anime, manga, and light novels across both Android and iOS devices.
 
-### 📚 Comprehensive Manga Catalog
-- 🔍 **Browse & Search** — Search and explore thousands of manga, manhwa, and manhua titles across popular genres.
-- 📑 **Chapter Navigation** — Fast and responsive chapter listing, sorting, and read/unread markers.
-- 🕒 **Reading Library & History** — Keep track of your reading progress and continue reading from any chapter.
+### 📚 Comprehensive Manga & Novel Catalog
+- 🔍 **Browse & Search** — Search and explore thousands of manga, manhwa, manhua, and light novel titles across popular genres.
+- 📑 **Chapter & Volume Navigation** — Fast and responsive chapter and novel volume listing, sorting, and read/unread markers.
+- 🕒 **Reading Library & History** — Keep track of your reading progress and continue reading from any chapter or novel volume.
 
-### ⬇️ Offline Manga Downloads
-- 💾 **Download Chapters** — Save complete manga chapters directly to your device for offline reading without an internet connection.
+### ⬇️ Offline Downloads for Manga & Novels
+- 💾 **Download Chapters & Volumes** — Save complete manga chapters and light novel volumes directly to your device for offline reading without an internet connection.
 - 🚀 **Background Downloading** — Smooth download queue with progress indicators.
-- 📁 **Download Manager** — Easily manage, view, and delete saved chapters to conserve local storage.
+- 📁 **Download Manager** — Easily manage, view, and delete saved manga and light novel files to conserve local storage.
 
 ### 🎨 Customized Reader Experience
-- 📖 **Multiple Reading Modes** — Left-to-right, right-to-left (Manga), and continuous vertical scroll (Webtoon).
-- 🔍 **Zoom & Aspect Fit** — Smooth pinch-to-zoom and aspect ratio fitting tailored for mobile screens.
+- 📖 **Multiple Reading Modes** — Left-to-right, right-to-left (Manga), continuous vertical scroll (Webtoon), and customizable text reflow for light novels (font sizes, line spacing, margins).
+- 🔍 **Zoom & Aspect Fit** — Smooth pinch-to-zoom and aspect ratio fitting tailored for mobile screens (Android & iOS).
 - 🌙 **Eye Comfort & Dark Mode** — Optimized reading brightness and pure dark background for late-night sessions.
+
+---
+
+# 🎮 Discord Rich Presence Setup
+
+> ### 📱 Available on Android Mobile, iOS, Windows, and Linux
+
+Showcase what anime you're watching, your current episode progress, and elapsed watch time dynamically on your Discord profile!
+
+### ✨ Rich Presence Highlights
+- 🎬 **Dynamic Display** — Displays the current anime title, episode number, episode thumbnail, and elapsed streaming time.
+- ⚡ **Lightweight & Battery-Friendly** — Runs smoothly in the background with minimal battery and network overhead.
+- 📱 **Cross-Platform Support** — Fully functional on Android Mobile, iOS (`.ipa`), Windows, and Linux.
+
+### 🛠️ Easy Setup Guide
+1. **Open AniWings** on your mobile device (Android/iOS) or Desktop (Windows/Linux).
+2. Navigate to **Settings → Integrations → Discord Rich Presence**.
+3. Toggle **Enable Discord Rich Presence** to **ON**.
+4. Connect your Discord account using the simplified setup (either instant in-app pairing or by entering your Discord Client ID).
+5. Start watching any episode — your Discord status will automatically update in real time with rich anime presence!
+
+---
+
+# 🖥️ Desktop Library Sync & Import / Export
+
+> ### 🪟 Windows (10 & 11) & 🐧 Linux (Universal AppImage)
+
+AniWings Desktop provides effortless synchronization and complete data portability for your anime library.
+
+### 🔄 MyAnimeList (MAL) & AniList Sync
+- 👤 **OAuth & Username Login** — Effortlessly connect your MyAnimeList or AniList profile via standard username or secure OAuth authentication.
+- ⏱️ **Two-Way Synchronization** — Automatically sync your watchlists, episode watch progress, scores, and completion statuses across devices with ease.
+- 🛡️ **Conflict-Free Syncing** — Seamless background updates ensure your external tracking profile stays accurate and up-to-date.
+
+### 📦 Data Import & Export
+- 📤 **Export Library** — Export your local AniWings watchlists and episode histories to structured formats (JSON / XML) at any time.
+- 📥 **Import Library** — Quickly import existing anime lists from backup files or third-party tracking services into AniWings Desktop with one click.
+- 🔒 **Data Ownership** — Retain full control over your watching data without vendor lock-in.
 
 ---
 
 # 🔌 Mobile Extension Support
 
-> ### 📱 Available on AniWings for Android Mobile
+> ### 📱 Available on AniWings Mobile (Android & iOS)
 
 AniWings Mobile includes a modular **extension-based provider system** that allows users to expand the app with additional anime providers instead of relying entirely on the built-in servers.
 
@@ -221,26 +264,27 @@ This gives the mobile app a more flexible architecture where additional compatib
 - 🛠️ **Expandable Architecture** — Additional compatible providers can be supported over time.
 - 🌐 **Provider Flexibility** — Users aren't limited exclusively to AniWings' built-in server selection.
 
-> **Note:** The Extension Manager is currently a **Mobile-only feature**. Extensions are not currently supported by the Android TV version. Availability and functionality can vary between individual extensions.
+> **Note:** The Extension Manager is currently a **Mobile feature (Android & iOS)**. Extensions are not currently supported by the Android TV version. Availability and functionality can vary between individual extensions.
 
 ---
 
-# 📱 Android Mobile Features
+# 📱 Mobile Features (Android & iOS)
 
 | Feature | Support |
 | --- | :---: |
-| 📖 Manga Reader & Offline Downloads | ✅ |
-| 🔌 Extension System | ✅ |
-| 🧩 Extension Manager | ✅ |
-| 🎬 Built-in Providers | ✅ |
-| ⬇️ Episode Downloads | ✅ |
+| 📖 Manga & Light Novel Reader | ✅ |
+| ⬇️ Offline Manga & Novel Downloads | ✅ |
+| 🎮 Discord Rich Presence with Easy Setup | ✅ |
+| 🔌 Extension System & Extension Manager | ✅ |
+| 🎬 Built-in Streaming Providers | ✅ |
+| ⬇️ Anime Episode Downloads | ✅ |
 | 🌐 Custom DNS | ✅ |
 | 🗣️ SUB / DUB Sources | ✅ |
 | 🇮🇳 Multi-Audio Sources | ✅ |
 | 📅 Airing Schedule | ✅ |
-| 🔍 Anime & Episode Search | ✅ |
+| 🔍 Anime & Episode Search (by Genre & Name) | ✅ |
 | 👤 Profile Customization | ✅ |
-| 📊 Anime Tracking | ✅ |
+| 📊 Anime Tracking (MAL / AniList / Kitsu) | ✅ |
 | ⭐ Library & Watchlists | ✅ |
 
 ---
@@ -296,16 +340,16 @@ The TV version includes a dedicated interface designed specifically for large sc
 
 ### 📺 TV Features
 
-- 🎮 **Full D-pad Navigation**
-- 📱 **QR Login through AniWings Mobile**
-- 🌈 **HDR Support**
-- 🎨 **Display Color Correction**
-- ⚡ **TV-Optimized Interface**
-- 🎬 **Multiple Streaming Providers**
-- 🗣️ **SUB & DUB Sources**
-- 📅 **Anime Schedule**
-- ▶️ **Continue Watching**
-- ⭐ **Library Support**
+- 🎮 **Full D-pad Navigation** — Native remote control navigation designed for large screens.
+- 🔑 **Dual Sign-In Options** — Sign in easily with either **Mobile ↔ TV QR Code Pairing** or direct on-screen **Manual Login**.
+- 🌈 **HDR Support** — Rich high-dynamic-range video playback.
+- 🎨 **Display Color Correction** — Fine-tuned color reproduction for televisions.
+- ⚡ **TV-Optimized Interface** — Big-screen layout with oversized episode cards and simple navigation.
+- 🎬 **Multiple Streaming Providers** — Seamlessly switch between streaming sources.
+- 🗣️ **SUB & DUB Sources** — Instant audio and subtitle track toggling.
+- 📅 **Anime Schedule** — Weekly broadcasting calendar for upcoming simulcasts.
+- ▶️ **Continue Watching** — Resume right where you left off.
+- ⭐ **Library Support** — Direct access to your AniList and MAL watchlists.
 
 ### Supported TV Platforms
 
@@ -319,19 +363,20 @@ The TV version includes a dedicated interface designed specifically for large sc
 
 ---
 
-# 🔗 Mobile ↔ TV QR Login
+# 🔗 TV Sign-In: QR Code & Manual Login
 
-AniWings Mobile can be used to connect with the Android TV version through **QR code pairing**.
+AniWings for Android TV supports two convenient login methods:
 
-Instead of manually entering account information using a television remote:
+### 1. 📱 QR Code Login (via AniWings Mobile)
+1. Open AniWings on your TV and choose **QR Login**.
+2. Open AniWings on your Android or iOS phone.
+3. Scan the QR code displayed on your television screen.
+4. Your account and watchlists will instantly synchronize to the TV!
 
-1. Open AniWings on your TV.
-2. Select the QR login option.
-3. Open AniWings on your Android phone.
-4. Scan the QR code displayed on your television.
-5. Complete the connection through the mobile app.
-
-This makes signing in and linking the TV experience much easier.
+### 2. ⌨️ Direct Manual Login (on TV)
+1. Open AniWings on your TV and choose **Manual Login**.
+2. Enter your username and password directly using your TV remote and the on-screen keyboard (or a connected keyboard).
+3. Sign in immediately without needing a mobile device nearby.
 
 ---
 
@@ -477,27 +522,31 @@ aniwings-tv-v1.3.3-universal.apk
 
 Feature availability across platforms:
 
-| Feature | 📱 Mobile | 📺 Android TV | 🪟 Windows | 🐧 Linux |
+| Feature | 📱 Mobile (Android & iOS) | 📺 Android TV | 🪟 Windows | 🐧 Linux |
 | --- | :---: | :---: | :---: | :---: |
 | Anime Streaming | ✅ | ✅ | ✅ | ✅ |
 | SUB & DUB Audio | ✅ | ✅ | ✅ | ✅ |
-| Multiple Providers | ✅ | ✅ | ✅ | ✅ |
-| Extension System | ✅ | ❌ | ❌ | ❌ |
-| Extension Manager | ✅ | ❌ | ❌ | ❌ |
+| Multiple Streaming Providers | ✅ | ✅ | ✅ | ✅ |
+| 📖 Manga & Light Novel Reader | ✅ | ❌ | ❌ | ❌ |
+| 💾 Manga & Novel Offline Downloads | ✅ | ❌ | ❌ | ❌ |
+| 🎮 Discord Rich Presence | ✅ | ❌ | ✅ | ✅ |
+| 🔄 MAL / AniList Sync (OAuth/Username) | ✅ | ✅ | ✅ | ✅ |
+| 📦 Watchlist Import & Export | ✅ | — | ✅ | ✅ |
+| 🔑 Manual Account Login | ✅ | ✅ | ✅ | ✅ |
+| 📱 QR Login Controller | ✅ | — | — | — |
+| 📺 QR Login Receiver | — | ✅ | — | — |
+| Extension System & Manager | ✅ | ❌ | ❌ | ❌ |
 | Episode Downloads | ✅ | — | ✅ | ✅ |
 | Custom DNS | ✅ | — | — | — |
 | Profile Customization | ✅ | — | ✅ | ✅ |
-| Anime Tracking (AniList/MAL) | ✅ | ✅ | ✅ | ✅ |
+| Anime Tracking (AniList/MAL/Kitsu) | ✅ | ✅ | ✅ | ✅ |
 | Airing Schedule | ✅ | ✅ | ✅ | ✅ |
-| QR Login Controller | ✅ | — | — | — |
-| QR Login Receiver | — | ✅ | — | — |
-| D-pad Navigation | — | ✅ | — | — |
-| Keyboard / Mouse Navigation | — | — | ✅ | ✅ |
+| D-pad TV Navigation | — | ✅ | — | — |
+| Keyboard & Mouse Navigation | — | — | ✅ | ✅ |
 | Native Window Controls | — | — | ✅ | ✅ |
 | Hardware Video Acceleration | ✅ | ✅ | ✅ | ✅ |
 | HDR Support | — | ✅ | — | — |
-| Fire TV Support | — | ✅ | — | — |
-| NVIDIA Shield TV | — | ✅ | — | — |
+| Fire TV & NVIDIA Shield Support | — | ✅ | — | — |
 
 ---
 
